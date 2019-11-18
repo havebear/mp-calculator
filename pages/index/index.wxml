@@ -1,0 +1,41 @@
+<view>
+  <!-- 表达式 -->
+  <view class="expression-wrap">{{ expression || 0 }}</view>
+  <!-- 结果 -->
+  <view class="result-wrap">= {{ result || 0 }}</view>
+  <!-- 输入键盘 -->
+  <view class="keyboard-wrap">
+    <view 
+      class="keyboard-item" 
+      wx:for="{{grids}}" 
+      wx:for-index="index" 
+      wx:key="index"
+      data-index="{{index}}"
+      bindtap="handleGridClick">{{ item.label }}</view>
+  </view>
+  <!-- <button id="btns" data-num="7" bindtap="inputnum">7</button>
+  <button id="btns" data-num="8" bindtap="inputnum">8</button>
+  <button id="btns" data-num="9" bindtap="inputnum">9</button>
+  <button id="btns" data-sign="/" bindtap="inputsign">/</button>
+
+  <button id="btns" data-num="4" bindtap="inputnum">4</button>
+  <button id="btns" data-num="5" bindtap="inputnum">5</button>
+  <button id="btns" data-num="6" bindtap="inputnum">6</button>
+  <button id="btns" data-sign="*" bindtap="inputsign">*</button>
+  
+  <button id="btns" data-num="1" bindtap="inputnum">1</button>
+  <button id="btns" data-num="2" bindtap="inputnum">2</button>
+  <button id="btns" data-num="3" bindtap="inputnum">3</button>
+  <button id="btns" data-sign="-" bindtap="inputsign">-</button>
+
+  <button id="btns" data-num="0" bindtap="inputnum">0</button>
+  <button id="btns" bindtap="inputpoint">.</button>
+  <button id="btns" data-sign="+" bindtap="inputsign">+</button>
+  <button id="btns" bindtap="inputequal">=</button> -->
+
+  <!-- <button id="btns" bindtap="inputnum">c</button>
+  <button id="btns" bindtap="inputpoint">del</button> -->
+</view>
+
+
+

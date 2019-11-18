@@ -1,0 +1,74 @@
+/**index.wxss**/
+
+
+#title   
+{
+	width:640rpx;
+	height:260rpx;
+	background-color:#ffffcc;
+	margin:10%
+}
+
+#inputnum{
+  background-color:#ff9900 ;
+  color: #666666;
+  width: 80%;
+  height: 80rpx;
+  float:right;
+  text-align: right;
+  margin:5% 5%;
+}
+#result{
+  background-color:#99cccc;
+  color: #666666;
+  width: 80%;
+  height: 80rpx;
+  float:right;
+  text-align: right;
+  margin:10rpx 5%;
+}
+
+#btns {
+  width: 120rpx;
+  height: 100rpx;
+  float: left;
+  margin-top:7%;
+  margin-left: 7%;
+}
+
+/* 表达式 */
+.expression-wrap {
+  padding: 40rpx 60rpx;
+  font-size: 48rpx;
+  font-weight: bold;
+  text-align: right;
+}
+
+/* 结果 */
+.result-wrap {
+  padding: 60rpx;
+  padding-top: 0;
+  font-size: 48rpx;
+  font-weight: bold;
+  text-align: right;
+  color: #ff9900;
+}
+
+/* 输入键盘 */
+.keyboard-wrap {
+  text-align: center;
+  font-size: 40rpx;
+  font-weight: 700;
+  color: #353535;
+}
+
+.keyboard-item {
+  display: inline-block;
+  width: 25%;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+
+.keyboard-item:active {
+  background-color: #f5f6f7;
+}
